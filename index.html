@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <style> </style>
 
     <title>Meme Generator</title>
 </head>
-<body>
-    <div class="main-screen"></div>
+
+<body onload="init()">
+
+    <input type="text" id="memeText" placeholder="Enter text"><br>
+    <button onclick="renderMeme()"></button><br>
+    <canvas id="canvas" width="400" height="400"></canvas>
+
+
+    <!-- <canvas id="canvas" height="400" width="400" style="border: 1px solid black;"></canvas>
+<section>Gallery</section>
+<input class="text" type="text">
+<img class="img" src="/meme-imgs (square)/1.jpg" alt="">
+<section>editor</section>
+ -->
+
+
+
+
+    <!-- <div class="main-screen"></div>
     <header class="main-header-container">
     <section class="header">
         <small class="main-header-logo">LOGO</small>
@@ -19,11 +38,11 @@
 
 <section class="meme-container">
 
-<input class="search" type="search" placeholder="Search">
-<input class="text" type="text">
+<input class="search" type="search" placeholder="Search"> -->
 
-<img class="img" src="/meme-imgs (square)/1.jpg" alt="">
-<img class="img"src="/meme-imgs (square)/2.jpg" alt="">
+
+
+    <!-- <img class="img"src="/meme-imgs (square)/2.jpg" alt="">
 <img class="img"src="/meme-imgs (square)/3.jpg" alt="">
 <img class="img"src="/meme-imgs (square)/4.jpg" alt="">
 <img class="img"src="/meme-imgs (square)/5.jpg" alt="">
@@ -33,9 +52,11 @@
 <img class="img"src="/meme-imgs (square)/9.jpg" alt="">
 <img class="img"src="/meme-imgs (square)/10.jpg" alt="">
 <img class="img"src="/meme-imgs (square)/11.jpg" alt="">
-<img class="img"src="/meme-imgs (square)/12.jpg" alt="">
-</section>
-     
+<img class="img"src="/meme-imgs (square)/12.jpg" alt=""> -->
+    </section>
+
 </body>
-<script src="main.js"></script>
+<script src="memeController.js"></script>
+<script src="memeService.js"></script>
+
 </html>
