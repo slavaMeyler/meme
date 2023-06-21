@@ -1,3 +1,64 @@
 canvas {
     border: 1px solid black;
   }
+
+  body {
+    background-color: black;
+}
+
+.main-header-container {
+    width: 100%;
+    height: 73px;
+    border-radius: 37px;
+    background-color: #5970c1;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+
+
+}
+
+.main-header-logo {
+    width: 59px;
+    height: 17px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+
+    text-transform: uppercase;
+
+    margin-left: 81px;
+    margin-top: 29px;
+    position: relative;
+}
+
+
+
+.main-header-galery {
+    width: 116px;
+    height: 40px;
+    box-shadow: 0 3px 6px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    background-color: #fefefe;
+    text-align: center;
+    /* width: 74px;
+    height: 22px; */
+    color: #21ac91;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 500;
+    margin-right: 352px;
+    margin-top: 19px;
+    margin-bottom: 14px;
+    justify-content: center;
+    align-items: center;
+    /* position: sticky; */
+
+
+}
