@@ -10,26 +10,26 @@
     <title>Meme Generator</title>
 </head>
 <div class="main-screen"></div>
-    <header class="main-header-container">
+<header class="main-header-container">
     <section class="header">
         <small class="main-header-logo">LOGO</small>
         <small class="main-header-galery">Galery</small>
     </section>
- </header>
- 
+</header>
+
 <body onload="init()">
 
-    <input type="text" id="memeText" placeholder="Enter text"><br>
+    <input class="meme-text" type="text" id="memeText" placeholder="Enter text"><br>
     <!-- <button onclick="renderMeme()"></button><br> -->
     <canvas id="canvas" width="400" height="400"></canvas>
+    <section class="place-list">
+        <!-- <img class="img" src="meme-imgs/8.jpg" alt=""> -->
+    </section>
+    
 
-<section>
-    <img class="img"src="meme-imgs/8.jpg" alt=""> 
-</section>
- 
 
+    <script src="memeService.js"></script>
+    <script src="memeController.js"></script>
 </body>
-<script src="memeController.js"></script>
-<script src="memeService.js"></script>
 
 </html>
