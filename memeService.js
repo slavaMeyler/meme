@@ -16,23 +16,22 @@ var gMeme = {
 var gKeywordSearchCountMap = { 'funny': 12, 'cat': 16, 'baby': 2 }
 
 
+function  imgChange(id){
+    gMeme.selectedImgId=id
+    renderMeme()
+    console.log( gMeme)
+}
 
 function getMeme() {
     return gMeme
 }
-
-
-
-
-
-
 
 function getImages() {
     return gImgs
 }
 
 
-function creatImgs() {
+function createImgs() {
     for (var i = 0; i < 18; i++) {
         const id = i + 1
         const img = {
